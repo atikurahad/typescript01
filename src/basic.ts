@@ -9,10 +9,20 @@ const latstName:string = "Ali";
 
 // Array declaration
 let scores: number[] = [90, 85, 88];
-let person: [string, number] = ["Alice", 30];
+let friend: [string, number] = ["Alice", 30];
 
 
-// Object 
+// ---- Object---
+
+//Inline Object Literal
+
+const userName = {
+    name: "Alice",
+    age: 30,
+    isEmployed: true
+  };
+  
+
 
 // basic function 
 function sayHello(name: string): string {
